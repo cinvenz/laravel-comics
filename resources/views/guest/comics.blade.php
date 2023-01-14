@@ -1,5 +1,9 @@
 @extends('guest.layouts.base')
 
 @section('content')
-    {{-- <h1>sono la home page</h1> --}}
+    <ul>
+        @foreach ($comics as $comic)
+            <li>{{$comic['title']}}</li>
+        @endforeach
+    </ul>
 @endsection

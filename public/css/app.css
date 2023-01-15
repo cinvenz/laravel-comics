@@ -18,8 +18,8 @@ body {
 
 header {
     text-align: center;
-    height: 6rem;
-    font-size: 0.6rem;
+    height: 8rem;
+    font-size: 0.7rem;
     font-weight: bold;
 }
 nav {
@@ -61,7 +61,7 @@ nav {
     font-size: 1.5rem;
 }
 .main-img {
-    background-image: url(../../public/jumbotron.jpg);
+    background-image: url(../img/jumbotron.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 17rem;
@@ -109,7 +109,7 @@ nav {
 }
 .container-blue-icon {
     background-color: #0282f9;
-    height: 7rem;
+    height: 9rem;
     color: white;
     font-size: 0.7rem;
 }
@@ -119,14 +119,14 @@ nav {
     align-items: center;
     gap: 2rem;
 }
-.icon {
+.icons .icon {
     display: flex;
     align-items: center;
     gap: 0.4rem;
 }
-.icon img {
-    width: 2.5rem;
-    height: 3rem;
+.icon .icon-img {
+    width: 3rem;
+    height: 3.2rem;
     object-fit: cover;
     object-fit: fill;
 }
@@ -153,4 +153,79 @@ nav {
 }
 .card-name:hover {
     color: red;
+}
+
+/* footer style */
+
+footer {
+    height: 16rem;
+    background-image: url(../img/footer-bg.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    background-image: url(../img/dc-logo-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 25rem;
+    padding-bottom: 1rem;
+}
+.footer-link {
+    display: flex;
+    gap: 3rem;
+    font-size: 0.6rem;
+}
+.footer-link li {
+    list-style: none;
+    margin-top: 0.3rem;
+}
+.footer-link li:hover {
+    text-decoration: underline;
+}
+.footer-link a {
+    text-decoration: none;
+    color: #959595;
+}
+
+.footer-socials {
+    background-color: #303030;
+    height: 5rem;
+}
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.icon p {
+    color: #0282f9;
+}
+.icon img {
+    width: 1.5rem;
+    cursor: pointer;
+}
+
+footer p {
+    color: white;
+    margin-bottom: 0.5rem;
+    margin-top: 0.8rem;
+    font-size: 1rem;
+}
+.footer-button {
+    padding: 0.5rem 1rem;
+    border: 2px solid #0282f9;
+    background-color: #303030;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.footer-button:hover {
+    color: #0282f9;
 }

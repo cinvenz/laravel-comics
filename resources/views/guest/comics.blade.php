@@ -32,23 +32,23 @@
       <div class="container-blue-icon">
         <div class="container icons">
           <div class="icon">
-            <img src="../../public/buy-comics-digital-comics.png" alt="" />
+            <img class="icon-img" src="{{ asset('img/buy-comics-digital-comics.png') }}" alt="" />
             <span>DIGITAL COMICS</span>
           </div>
           <div class="icon">
-            <img src="../../public/buy-comics-merchandise.png" alt="" />
+            <img class="icon-img" src="{{asset('img/buy-comics-merchandise.png')}}" alt="" />
             <span>DC MERCHANDISE</span>
           </div>
           <div class="icon">
-            <img src="../../public/buy-comics-subscriptions.png" alt="" />
+            <img class="icon-img" src="{{asset('img/buy-comics-subscriptions.png')}}" alt="" />
             <span>SUBSCRIPTION</span>
           </div>
           <div class="icon">
-            <img src="../../public/buy-comics-shop-locator.png" alt="" />
+            <img class="icon-img" src="{{asset('img/buy-comics-shop-locator.png')}}" alt="" />
             <span>COMIC SHOP LOCATOR</span>
           </div>
           <div class="icon">
-            <img src="../../public/buy-dc-power-visa.svg" alt="" />
+            <img class="icon-img" src="{{asset('img/buy-dc-power-visa.svg')}}" alt="" />
             <span>DC POWER VISA</span>
           </div>
         </div>

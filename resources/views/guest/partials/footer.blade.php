@@ -49,15 +49,15 @@
     <div class="footer-socials">
       <div class="container social-icon">
         <div>
-          <button>SIGN-UP NOW!</button>
+          <button class="footer-button">SIGN-UP NOW!</button>
         </div>
         <div class="icon">
           <p>FOLLOW US</p>
-          <img src="../../public/footer-facebook.png" alt="" />
-          <img src="../../public/footer-twitter.png" alt="" />
-          <img src="../../public/footer-youtube.png" alt="" />
-          <img src="../../public/footer-pinterest.png" alt="" />
-          <img src="../../public/footer-periscope.png" alt="" />
+          <img src="{{asset('img/footer-facebook.png')}}" alt="" />
+          <img src="{{asset('img/footer-twitter.png')}}" alt="" />
+          <img src="{{asset('img/footer-youtube.png')}}" alt="" />
+          <img src="{{asset('img/footer-pinterest.png')}}" alt="" />
+          <img src="{{asset('img/footer-periscope.png')}}" alt="" />
         </div>
       </div>
     </div>

@@ -3,42 +3,42 @@
 return [
     [
         'route' => 'characters',
-        'label' => 'Characters',
+        'label' => 'CHARACTERS',
     ],
     [
         'route' => 'comics',
-        'label' => 'Comics',
+        'label' => 'COMICS',
     ],
     [
         'route' => 'movies',
-        'label' => 'Movies',
+        'label' => 'MOVIES',
     ],
     [
         'route' => 'tv',
-        'label' => 'Tv',
+        'label' => 'TV',
     ],
     [
         'route' => 'games',
-        'label' => 'Games',
+        'label' => 'GAMES',
     ],
     [
         'route' => 'collectibles',
-        'label' => 'Collectibles',
+        'label' => 'COLLECTIBLES',
     ],
     [
         'route' => 'videos',
-        'label' => 'Videos',
+        'label' => 'VIDEOS',
     ],
     [
         'route' => 'fans',
-        'label' => 'Fans',
+        'label' => 'FANS',
     ],
     [
         'route' => 'news',
-        'label' => 'News',
+        'label' => 'NEWS',
     ],
     [
         'route' => 'shop',
-        'label' => 'Shop',
+        'label' => 'SHOP',
     ],
 ];

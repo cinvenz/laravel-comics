@@ -1,0 +1,156 @@
+/* global style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 0.8rem;
+    font-family: "Montserrat", sans-serif;
+}
+.container {
+    max-width: 900px;
+    margin: auto;
+    height: 100%;
+}
+
+/* Header style */
+
+header {
+    text-align: center;
+    height: 6rem;
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.logo-dc {
+    width: 4rem;
+    cursor: pointer;
+}
+.nav-ul {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    list-style: none;
+    gap: 0.5rem;
+}
+.nav-link {
+    text-decoration: none;
+    color: #4d5661;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0.5rem;
+    height: 100%;
+}
+.nav-link:hover {
+    border-top: 3px solid white;
+    border-bottom: 3px solid #0282f9;
+    color: #0282f9;
+}
+
+/* main style */
+
+.container-black {
+    background-color: black;
+    font-size: 1.5rem;
+}
+.main-img {
+    background-image: url(../../public/jumbotron.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 17rem;
+}
+
+.current-series {
+    background-color: #0282f9;
+    height: 3rem;
+    position: absolute;
+    top: -1.5rem;
+    left: 17.5%;
+    color: white;
+    font-size: 1.3rem;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+}
+.main-back {
+    background-color: #1c1c1c;
+    position: relative;
+    padding-bottom: 2rem;
+}
+.load-more {
+    background-color: #0282f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+    border: none;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+}
+.cartoon-card {
+    flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.card-series {
+    flex: 0 0 calc(100 / 6);
+}
+.container-blue-icon {
+    background-color: #0282f9;
+    height: 7rem;
+    color: white;
+    font-size: 0.7rem;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+.icon img {
+    width: 2.5rem;
+    height: 3rem;
+    object-fit: cover;
+    object-fit: fill;
+}
+
+/* cards style */
+.card {
+    margin-top: 2rem;
+}
+.contents {
+    width: 8rem;
+}
+.contents img {
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    object-position: top;
+    cursor: pointer;
+}
+.card-name {
+    font-size: 0.5em;
+    color: white;
+    padding-top: 0.5rem;
+    cursor: pointer;
+}
+.card-name:hover {
+    color: red;
+}

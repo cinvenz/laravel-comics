@@ -14,13 +14,7 @@
             <p>CURRENT SERIES</p>
           </div>
           <div class="container cartoon-card">
-            {{-- <CardSeries
-              class=""
-              v-for="objCard in arrCards"
-              :key="objCard.series"
-              :imgUrl="objCard.thumb"
-              :name="objCard.series"
-            /> --}}
+
 
             @include('guest.partials.cards')
           </div>

@@ -1,231 +1,262 @@
-/* global style */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 body {
-    font-size: 0.8rem;
-    font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  font-family: "Montserrat", sans-serif;
 }
+
 .container {
-    max-width: 900px;
-    margin: auto;
-    height: 100%;
+  max-width: 900px;
+  margin: auto;
+  height: 100%;
 }
 
 /* Header style */
-
 header {
-    text-align: center;
-    height: 8rem;
-    font-size: 0.7rem;
-    font-weight: bold;
+  text-align: center;
+  height: 8rem;
+  font-size: 0.7rem;
+  font-weight: bold;
 }
+
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
 }
+
 .logo-dc {
-    width: 4rem;
-    cursor: pointer;
+  width: 4rem;
+  cursor: pointer;
 }
+
 .nav-ul {
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    list-style: none;
-    gap: 0.5rem;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  list-style: none;
+  gap: 0.5rem;
 }
+
 .nav-link {
-    text-decoration: none;
-    color: #4d5661;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 0.5rem;
-    height: 100%;
+  text-decoration: none;
+  color: #4d5661;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.5rem;
+  height: 100%;
 }
+
 .nav-link:hover {
-    border-top: 3px solid white;
-    border-bottom: 3px solid #0282f9;
-    color: #0282f9;
+  border-top: 3px solid white;
+  border-bottom: 3px solid #0282f9;
+  color: #0282f9;
 }
 
 /* main style */
-
 .container-black {
-    background-color: black;
-    font-size: 1.5rem;
+  background-color: black;
+  font-size: 1.5rem;
 }
+
 .main-img {
-    background-image: url(../img/jumbotron.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 17rem;
+  background-image: url(../img/jumbotron.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 17rem;
 }
 
 .current-series {
-    background-color: #0282f9;
-    height: 3rem;
-    position: absolute;
-    top: -1.5rem;
-    left: 17.5%;
-    color: white;
-    font-size: 1.3rem;
-    padding: 1rem 2rem;
-    display: flex;
-    align-items: center;
+  background-color: #0282f9;
+  height: 3rem;
+  position: absolute;
+  top: -1.5rem;
+  left: 17.5%;
+  color: white;
+  font-size: 1.3rem;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
 }
+
 .main-back {
-    background-color: #1c1c1c;
-    position: relative;
-    padding-bottom: 2rem;
+  background-color: #1c1c1c;
+  position: relative;
+  padding-bottom: 2rem;
 }
+
 .load-more {
-    background-color: #0282f9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    color: white;
-    border: none;
-    padding: 0.5rem 2rem;
-    cursor: pointer;
+  background-color: #0282f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: white;
+  border: none;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
 }
+
 .cartoon-card {
-    flex-wrap: wrap;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
+  flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
+
 .card-series {
-    flex: 0 0 calc(100 / 6);
+  flex: 0 0 16.6666666667;
 }
+
 .container-blue-icon {
-    background-color: #0282f9;
-    height: 9rem;
-    color: white;
-    font-size: 0.7rem;
+  background-color: #0282f9;
+  height: 9rem;
+  color: white;
+  font-size: 0.7rem;
 }
+
 .icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
+
 .icons .icon {
-    display: flex;
-    align-items: center;
-    gap: 0.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
 }
+
 .icon .icon-img {
-    width: 3rem;
-    height: 3.2rem;
-    object-fit: cover;
-    object-fit: fill;
+  width: 3rem;
+  height: 3.2rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 /* cards style */
 .card {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
+
 .contents {
-    width: 8rem;
+  width: 8rem;
 }
+
 .contents img {
-    width: 8rem;
-    height: 8rem;
-    object-fit: cover;
-    object-position: top;
-    cursor: pointer;
+  width: 8rem;
+  height: 8rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  cursor: pointer;
 }
+
 .card-name {
-    font-size: 0.5em;
-    color: white;
-    padding-top: 0.5rem;
-    cursor: pointer;
+  font-size: 0.5em;
+  color: white;
+  padding-top: 0.5rem;
+  cursor: pointer;
 }
+
 .card-name:hover {
-    color: red;
+  color: red;
 }
 
 /* footer style */
-
 footer {
-    height: 16rem;
-    background-image: url(../img/footer-bg.jpg);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
+  height: 16rem;
+  background-image: url(../img/footer-bg.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 .footer {
-    display: flex;
-    align-items: center;
-    background-image: url(../img/dc-logo-bg.png);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: 25rem;
-    padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  background-image: url(../img/dc-logo-bg.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 25rem;
+  padding-bottom: 1rem;
 }
+
 .footer-link {
-    display: flex;
-    gap: 3rem;
-    font-size: 0.6rem;
+  display: flex;
+  gap: 3rem;
+  font-size: 0.6rem;
 }
+
 .footer-link li {
-    list-style: none;
-    margin-top: 0.3rem;
+  list-style: none;
+  margin-top: 0.3rem;
 }
+
 .footer-link li:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
+
 .footer-link a {
-    text-decoration: none;
-    color: #959595;
+  text-decoration: none;
+  color: #959595;
 }
 
 .footer-socials {
-    background-color: #303030;
-    height: 5rem;
+  background-color: #303030;
+  height: 5rem;
 }
+
 .social-icon {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
 .icon {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
+
 .icon p {
-    color: #0282f9;
+  color: #0282f9;
 }
+
 .icon img {
-    width: 1.5rem;
-    cursor: pointer;
+  width: 1.5rem;
+  cursor: pointer;
 }
 
 footer p {
-    color: white;
-    margin-bottom: 0.5rem;
-    margin-top: 0.8rem;
-    font-size: 1rem;
+  color: white;
+  margin-bottom: 0.5rem;
+  margin-top: 0.8rem;
+  font-size: 1rem;
 }
+
 .footer-button {
-    padding: 0.5rem 1rem;
-    border: 2px solid #0282f9;
-    background-color: #303030;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: 2px solid #0282f9;
+  background-color: #303030;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
 }
+
 .footer-button:hover {
-    color: #0282f9;
+  color: #0282f9;
 }

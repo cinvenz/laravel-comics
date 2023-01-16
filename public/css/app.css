@@ -105,7 +105,7 @@ main .card-series {
 }
 main .container-blue-icon {
   background-color: #0282f9;
-  height: 7rem;
+  height: 9rem;
   color: white;
   font-size: 0.7rem;
 }
@@ -145,6 +145,7 @@ main .container-blue-icon .icons .icon img {
   cursor: pointer;
 }
 .card .contents .card-name {
+  text-transform: uppercase;
   font-size: 0.5em;
   color: white;
   padding-top: 0.5rem;

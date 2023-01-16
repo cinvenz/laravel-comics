@@ -15,35 +15,30 @@ body {
   height: 100%;
 }
 
-/* Header style */
 header {
   text-align: center;
   height: 8rem;
   font-size: 0.7rem;
   font-weight: bold;
 }
-
-nav {
+header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
 }
-
-.logo-dc {
+header nav .logo-dc {
   width: 4rem;
   cursor: pointer;
 }
-
-.nav-ul {
+header nav ul {
   display: flex;
   justify-content: center;
   height: 100%;
   list-style: none;
   gap: 0.5rem;
 }
-
-.nav-link {
+header nav ul a {
   text-decoration: none;
   color: #4d5661;
   display: flex;
@@ -52,27 +47,23 @@ nav {
   padding: 0 0.5rem;
   height: 100%;
 }
-
-.nav-link:hover {
+header nav ul a:hover {
   border-top: 3px solid white;
   border-bottom: 3px solid #0282f9;
   color: #0282f9;
 }
 
-/* main style */
-.container-black {
+main .container-black {
   background-color: black;
   font-size: 1.5rem;
 }
-
-.main-img {
+main .container-black .main-img {
   background-image: url(../img/jumbotron.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 17rem;
 }
-
-.current-series {
+main .current-series {
   background-color: #0282f9;
   height: 3rem;
   position: absolute;
@@ -84,14 +75,12 @@ nav {
   display: flex;
   align-items: center;
 }
-
-.main-back {
+main .main-back {
   background-color: #1c1c1c;
   position: relative;
   padding-bottom: 2rem;
 }
-
-.load-more {
+main .load-more {
   background-color: #0282f9;
   display: flex;
   justify-content: center;
@@ -102,8 +91,7 @@ nav {
   padding: 0.5rem 2rem;
   cursor: pointer;
 }
-
-.cartoon-card {
+main .cartoon-card {
   flex-wrap: wrap;
   display: flex;
   flex-wrap: wrap;
@@ -112,50 +100,42 @@ nav {
   padding-top: 1rem;
   padding-bottom: 2rem;
 }
-
-.card-series {
+main .card-series {
   flex: 0 0 16.6666666667;
 }
-
-.container-blue-icon {
+main .container-blue-icon {
   background-color: #0282f9;
-  height: 9rem;
+  height: 7rem;
   color: white;
   font-size: 0.7rem;
 }
-
-.icons {
+main .container-blue-icon .icons {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2rem;
 }
-
-.icons .icon {
+main .container-blue-icon .icons .icon {
   display: flex;
   align-items: center;
   gap: 0.4rem;
 }
-
-.icon .icon-img {
-  width: 3rem;
-  height: 3.2rem;
+main .container-blue-icon .icons .icon img {
+  width: 2.5rem;
+  height: 3rem;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-fit: fill;
      object-fit: fill;
 }
 
-/* cards style */
 .card {
   margin-top: 2rem;
 }
-
-.contents {
+.card .contents {
   width: 8rem;
 }
-
-.contents img {
+.card .contents img {
   width: 8rem;
   height: 8rem;
   -o-object-fit: cover;
@@ -164,28 +144,24 @@ nav {
      object-position: top;
   cursor: pointer;
 }
-
-.card-name {
+.card .contents .card-name {
   font-size: 0.5em;
   color: white;
   padding-top: 0.5rem;
   cursor: pointer;
 }
-
-.card-name:hover {
+.card .contents .card-name:hover {
   color: red;
 }
 
-/* footer style */
 footer {
-  height: 16rem;
+  height: 18rem;
   background-image: url(../img/footer-bg.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.footer {
+footer .footer {
   display: flex;
   align-items: center;
   background-image: url(../img/dc-logo-bg.png);
@@ -194,61 +170,50 @@ footer {
   background-size: 25rem;
   padding-bottom: 1rem;
 }
-
-.footer-link {
+footer .footer .footer-link {
   display: flex;
   gap: 3rem;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
 }
-
-.footer-link li {
+footer .footer .footer-link li {
   list-style: none;
-  margin-top: 0.3rem;
+  margin-top: 0.4rem;
 }
-
-.footer-link li:hover {
+footer .footer .footer-link li:hover {
   text-decoration: underline;
 }
-
-.footer-link a {
+footer .footer .footer-link li a {
   text-decoration: none;
   color: #959595;
 }
-
-.footer-socials {
+footer .footer-socials {
   background-color: #303030;
   height: 5rem;
 }
-
-.social-icon {
+footer .footer-socials .social-icon {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
-.icon {
+footer .footer-socials .social-icon .icon {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
-
-.icon p {
+footer .footer-socials .social-icon .icon p {
   color: #0282f9;
 }
-
-.icon img {
+footer .footer-socials .social-icon .icon img {
   width: 1.5rem;
   cursor: pointer;
 }
-
 footer p {
   color: white;
   margin-bottom: 0.5rem;
   margin-top: 0.8rem;
   font-size: 1rem;
 }
-
-.footer-button {
+footer button {
   padding: 0.5rem 1rem;
   border: 2px solid #0282f9;
   background-color: #303030;
@@ -256,7 +221,6 @@ footer p {
   font-weight: bold;
   cursor: pointer;
 }
-
-.footer-button:hover {
+footer button:hover {
   color: #0282f9;
 }
